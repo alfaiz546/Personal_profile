@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alfaiz Khatik - AI and Machine Learning Student Portfolio">
+    <title>Alfaiz Khatik | AI Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="noise"></div>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">AK<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact" class="contact-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Toggle light and dark theme">☼</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-visual">
+                <div class="portrait-frame">
+                    <div class="portrait-orbit orbit-one"></div>
+                    <div class="portrait-orbit orbit-two"></div>
+
+                    <!-- <img src="profile.png"
+                         alt="Portrait of Alfaiz Khatik"
+                         class="profile-image"
+                         onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='grid';"> -->
+
+                    <div class="photo-fallback" id="photoFallback">
+                        <span>AK</span>
+                        <small>Add profile.jpeg to your project folder</small>
+                    </div>
+
+                    <div class="image-label label-top">
+                        <span class="status-dot"></span>
+                        AI / ML STUDENT
+                    </div>
+
+                    <div class="image-label label-bottom">
+                        <span>01</span> BUILDING THE FUTURE
+                    </div>
+                </div>
+
+                <div class="floating-chip chip-one">✦ MACHINE LEARNING</div>
+                <div class="floating-chip chip-two">{"< CODE />"}</div>
+                <div class="floating-chip chip-three">AI + INNOVATION</div>
+            </div>
+
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    HELLO, WORLD. I'M
+                </p>
+
+                <h1>Alfaiz<br><span>Khatik.</span></h1>
+
+                <div class="hero-role">
+                    <span class="role-line"></span>
+                    <p>AI & MACHINE LEARNING STUDENT</p>
+                </div>
+
+                <p class="hero-description">
+                    Exploring the world of Artificial Intelligence,
+                    Machine Learning and software development.
+                    I enjoy turning ideas into meaningful digital experiences
+                    and building technology that can make a difference.
+                </p>
+
+                <div class="hero-tags">
+                    <span>Artificial Intelligence</span>
+                    <span>Machine Learning</span>
+                    <span>Development</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-button">
+                        Explore My Work <span>↗</span>
+                    </a>
+                    <a href="#contact" class="secondary-button">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="hero-index">
+                    <span>PORTFOLIO / 2026</span>
+                    <span>SCROLL TO EXPLORE ↓</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <span class="section-number">01 / ABOUT</span>
+                <h2>Curiosity drives <span>innovation.</span></h2>
+            </div>
+
+            <div class="about-layout">
+                <div class="about-main glass-card">
+                    <span class="card-symbol">✳</span>
+                    <h3>Who am I?</h3>
+                    <p>
+                        I'm Alfaiz Khatik, a B.Tech Computer Science student
+                        specializing in Artificial Intelligence and Machine
+                        Learning. I'm passionate about technology, programming
+                        and understanding how intelligent systems work.
+                    </p>
+                    <p>
+                        Currently, I'm strengthening my programming foundations,
+                        exploring AI/ML concepts and developing practical
+                        projects to improve my skills.
+                    </p>
+                </div>
+
+                <div class="about-side">
+                    <div class="mini-card glass-card">
+                        <span class="mini-icon">⌘</span>
+                        <h3>Think</h3>
+                        <p>Curiosity and problem solving.</p>
+                    </div>
+                    <div class="mini-card glass-card">
+                        <span class="mini-icon">⌁</span>
+                        <h3>Build</h3>
+                        <p>Learning through real projects.</p>
+                    </div>
+                    <div class="mini-card glass-card">
+                        <span class="mini-icon">✧</span>
+                        <h3>Grow</h3>
+                        <p>Improving every single day.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section container" id="education">
+            <div class="section-heading">
+                <span class="section-number">02 / EDUCATION</span>
+                <h2>My learning <span>journey.</span></h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item glass-card">
+                    <span class="timeline-dot"></span>
+                    <span class="timeline-date">CURRENTLY PURSUING</span>
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Computer Science Engineering</h4>
+                    <p>Specialization: Artificial Intelligence & Machine Learning</p>
+                </article>
+
+                <article class="timeline-item glass-card">
+                    <span class="timeline-dot"></span>
+                    <span class="timeline-date">COMPLETED</span>
+                    <h3>Higher Secondary Certificate</h3>
+                    <h4>Maharashtra State Board</h4>
+                    <p>Class 12 — 72%</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <span class="section-number">03 / SKILLS</span>
+                <h2>My technical <span>arsenal.</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">☕</span>
+                    <h3>Java</h3>
+                    <p>Programming & DSA</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Programming Fundamentals</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">⌘</span>
+                    <h3>HTML</h3>
+                    <p>Web Structure</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">✦</span>
+                    <h3>CSS</h3>
+                    <p>Web Design</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">◈</span>
+                    <h3>Machine Learning</h3>
+                    <p>Currently Learning</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">⌕</span>
+                    <h3>Problem Solving</h3>
+                    <p>Logical Thinking</p>
+                </div>
+                <div class="skill-card glass-card">
+                    <span class="skill-icon">⟡</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <span class="section-number">04 / PROJECTS</span>
+                <h2>Ideas into <span>reality.</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card glass-card">
+                    <div class="project-top">
+                        <span>01</span>
+                        <span class="project-type">WEB DEVELOPMENT</span>
+                    </div>
+                    <div class="project-art art-purple">⌘</div>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A personal website showcasing my education,
+                        skills, interests and development journey.
+                    </p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <span class="project-status">● IN DEVELOPMENT</span>
+                </article>
+
+                <article class="project-card glass-card">
+                    <div class="project-top">
+                        <span>02</span>
+                        <span class="project-type">AI / ML CONCEPT</span>
+                    </div>
+                    <div class="project-art art-cyan">◉</div>
+                    <h3>SmartAttend AI</h3>
+                    <p>
+                        An attendance management concept exploring
+                        face recognition, QR scanning and manual attendance.
+                    </p>
+                    <div class="tech-stack">
+                        <span>AI / ML</span><span>Web</span><span>Database</span>
+                    </div>
+                    <span class="project-status">● PROJECT IN DEVELOPMENT</span>
+                </article>
+
+                <article class="project-card glass-card">
+                    <div class="project-top">
+                        <span>03</span>
+                        <span class="project-type">DIGITAL PLATFORM</span>
+                    </div>
+                    <div class="project-art art-pink">⌁</div>
+                    <h3>KamConnect</h3>
+                    <p>
+                        A digital skill passport concept connecting
+                        skilled workers with people looking for services.
+                    </p>
+                    <div class="tech-stack">
+                        <span>PWA</span><span>React</span><span>Digital Platform</span>
+                    </div>
+                    <span class="project-status">● PROJECT CONCEPT</span>
+                </article>
+
+                <article class="project-card glass-card">
+                    <div class="project-top">
+                        <span>04</span>
+                        <span class="project-type">PYTHON / AI</span>
+                    </div>
+                    <div class="project-art art-blue">✳</div>
+                    <h3>AI Chatbot</h3>
+                    <p>
+                        A learning project exploring Python fundamentals
+                        and the basic concepts behind conversational AI.
+                    </p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>AI</span><span>Chatbot</span>
+                    </div>
+                    <span class="project-status">● LEARNING PROJECT</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- INTERESTS -->
+        <section class="section container" id="interests">
+            <div class="section-heading">
+                <span class="section-number">05 / INTERESTS</span>
+                <h2>Beyond the <span>code.</span></h2>
+            </div>
+
+            <div class="interests-grid">
+                <div class="interest-card glass-card">
+                    <span>◈</span><h3>Artificial Intelligence</h3>
+                    <p>Exploring intelligent systems and emerging AI technologies.</p>
+                </div>
+                <div class="interest-card glass-card">
+                    <span>⌘</span><h3>Programming</h3>
+                    <p>Learning languages and improving coding fundamentals.</p>
+                </div>
+                <div class="interest-card glass-card">
+                    <span>⚡</span><h3>Hackathons</h3>
+                    <p>Collaborating and exploring practical problem solving.</p>
+                </div>
+                <div class="interest-card glass-card">
+                    <span>✧</span><h3>Technology</h3>
+                    <p>Discovering new tools, ideas and innovations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section class="section container" id="achievements">
+            <div class="section-heading">
+                <span class="section-number">06 / ACHIEVEMENTS</span>
+                <h2>Every step <span>counts.</span></h2>
+            </div>
+
+            <div class="achievement-card glass-card">
+                <span class="achievement-icon">✦</span>
+                <div>
+                    <h3>Hackathon Participation</h3>
+                    <p>Participated in a college hackathon and explored team-based project development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section container" id="contact">
+            <div class="section-heading">
+                <span class="section-number">07 / CONTACT</span>
+                <h2>Let's create something <span>great.</span></h2>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h3>Have an idea?</h3>
+                    <p>
+                        I'm interested in learning, collaborating and
+                        connecting with people who love technology.
+                    </p>
+                    <div class="contact-detail">
+                        <span>✉</span>
+                        <p>Connect through my social profiles.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/alfaiz546"
+                           target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card" id="contactForm" novalidate>
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+
+                    <label for="message">Your message</label>
+                    <textarea id="message" placeholder="Write something..."></textarea>
+
+                    <button type="submit" class="primary-button">
+                        Validate Message ↗
+                    </button>
+
+                    <p id="formMessage" role="status" aria-live="polite"></p>
+                    <small>This demo form validates your message but does not send email.</small>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">AK<span>.</span></a>
+        <p>Designed & built by Alfaiz Khatik</p>
+        <p>© 2026 — Exploring the future, one line at a time.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
